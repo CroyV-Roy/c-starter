@@ -14,6 +14,8 @@ int main(void)
       break;
   }
 
+  p--;
+
   for (q = &sentences[0]; p != q; q++, p--) {
     if (*q != *p)
       break;
